@@ -25,5 +25,6 @@ export class MemberComponent {
     { Name: '猫汰つな', Birth: '11/27', YoutubeLink: 'https://www.youtube.com/@tsuna_nekota', Picture: 'https://yt3.googleusercontent.com/5cB1RxA8O44yMKNGvEMqvS3E1FaTloSC1GoTfY48kjAcxllPwyySVO9ioRoSfLSKFATLJycV=s176-c-k-c0x00ffffff-no-rj' },
     { Name: '白波らむね', Birth: '3/21', YoutubeLink: 'https://www.youtube.com/@shiranamiramune', Picture: 'https://yt3.googleusercontent.com/89CDsuDU9WD9o-_LQg1hqEvntFzihLLPnIx5mR4A0oBs0jc6pGV_aMdWz8CO3T-WbURePtdGbA=s176-c-k-c0x00ffffff-no-rj' },
     { Name: '小森めと', Birth: '12/10', YoutubeLink: 'https://www.youtube.com/@Met_Komori', Picture: 'https://yt3.googleusercontent.com/oKj3QGssTroRn-2D7T3bqcDpYY2ha10PUx0aXRcQYRn8V1sAKvOJG4lTLUtuKYAeGMrevpcOYw=s176-c-k-c0x00ffffff-no-rj' },
+    { Name: '夢野あかり', Birth: '5/5', YoutubeLink: 'https://www.youtube.com/@akarindao', Picture: 'https://yt3.googleusercontent.com/oIDXQDZsMSTeGShVPE_-CAifw4duLe5z-8_6zhT3x3cenZq0KScM6UH0Y6Gva9k-p648YDrNMA=s176-c-k-c0x00ffffff-no-rj' },
   ]
 }

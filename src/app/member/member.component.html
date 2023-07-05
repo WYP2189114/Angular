@@ -2,9 +2,9 @@
 <div id="members">
     <h2>所有成員</h2>
     <ul>
-       <!-- 在這裡添加成員 -->
+       <!-- 在這裡顯示成員 -->
        <li *ngFor="let member of members"><img
-             src={{member.Picture}}><br><p style="font-size:23px;">{{member.Name}}</p>生日:{{member.Birth}}<br><a
-             href={{member.YoutubeLink}}>Youtube頻道</a></li>
+             [src]=member.Picture><br><p style="font-size:23px;">{{member.Name}}</p>生日:{{member.Birth}}<br><a
+             [href]=member.YoutubeLink>Youtube頻道</a></li>
     </ul>
  </div>
