@@ -1,0 +1,16 @@
+<!-- <p>forum works!</p> -->
+<div id="messages">
+    <h2>討論區</h2>
+    <div *ngFor="let message of messages">
+      <div>{{ message.name }}</div>
+      <div>{{ message.content }}</div>
+      <div>{{ message.time | date:'medium' }}</div>
+    </div>
+  </div>
+  
+  <div id="input">
+    <input type="text" [(ngModel)]="name" placeholder="姓名">
+    <textarea [(ngModel)]="content" placeholder="留言內容"></textarea>
+    <button (click)="addMessage()">提交</button>
+  </div>
+  
